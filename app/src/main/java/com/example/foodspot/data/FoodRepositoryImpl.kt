@@ -282,6 +282,33 @@ class FoodRepositoryImpl : FoodRepository {
                     imageUrl = "https://plus.unsplash.com/premium_photo-1678051141689-1f7a7861b3b4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fHRhY29zfGVufDB8fDB8fHww"
                 )
             )
+        ),
+        Restaurant(
+            id = 11,
+            name = "Simmer Down",
+            description = "Pizza artesanal con el mejor sabor.",
+            imageUrl = "https://images.unsplash.com/photo-1618213837799-25d5552820d3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNoaWNrZW4lMjBwaXp6YXxlbnwwfHwwfHx8MA%3D%3D",
+            categories = listOf("Pizzas"),
+            menu = listOf(
+                Dish(
+                    id = 1,
+                    name = "Pizza de Pollo",
+                    description = "Pizza de pollo con sabor autentico.",
+                    imageUrl = "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHBpenphfGVufDB8fDB8fHww"
+                ),
+                Dish(
+                    id = 2,
+                    name = "Pizza de hongos",
+                    description = "Pizza con una capa de queso, hongos y aceitunas.",
+                    imageUrl = "https://images.unsplash.com/photo-1652952561151-97e82f26c336?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNoaWNrZW4lMjBwaXp6YXxlbnwwfHwwfHx8MA%3D%3D"
+                ),
+                Dish(
+                    id = 3,
+                    name = "La repleta",
+                    description = "Pizza con aceitunas, jamon, chile verde, y queso.",
+                    imageUrl = "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2hpY2tlbiUyMHBpenphfGVufDB8fDB8fHww"
+                )
+            )
         )
     )
 }
